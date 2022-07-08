@@ -1,0 +1,38 @@
+[
+  {
+	"id": 10,
+	"name": "☆",
+	"order": 3,
+	"show": true
+  },
+  {
+	"id": 1,
+	"name": "☆☆",
+	"order": 4,
+	"show": true
+  },
+  {
+	"id": 2,
+	"name": "☆☆☆",
+	"order": 5,
+	"show": true
+  },
+  {
+	"id": 5,
+	"name": "已看完",
+	"order": 7,
+	"show": true
+  },
+  {
+	"id": 6,
+	"name": "阅读中",
+	"order": 8,
+	"show": true
+  },
+  {
+	"id": 7,
+	"name": "☆☆☆☆",
+	"order": 6,
+	"show": true
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "7c3064c949cc02e5ab8cb6d456d0aefae5199a3f70555689be7018ee7f9f878d"
+    },
+    {
+      "guid" : "7c3064c949cc02e5ab8cb6d456d0aefa9da425bb6d6d5d8dbb95e4afffb82217"
+    },
+    {
+      "guid" : "7c3064c949cc02e5ab8cb6d456d0aefa312b4bc59bbbe2c06c205bf4da6737f5"
+    },
+    {
+      "guid" : "7c3064c949cc02e5ab8cb6d456d0aefa22a19f6c224a402387a233be75a6e268"
+    },
+    {
+      "guid" : "7c3064c949cc02e5ab8cb6d456d0aefa6f0e8be830d0d3c28782ddeefee89819"
+    },
+    {
+      "guid" : "7c3064c949cc02e5ab8cb6d456d0aefab35b2234c62e83383ef7c2509ddd49f7"
+    },
+    {
+      "guid" : "7c3064c949cc02e5ab8cb6d456d0aefa3786431ce548989b846bbf1a7384f58e"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/oneal/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/oneal/Library/Developer/Xcode/DerivedData/Pods-dpudhjdpbcbvhteznydjehirwnxq/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/oneal/Library/Developer/Xcode/DerivedData/Pods-dpudhjdpbcbvhteznydjehirwnxq/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

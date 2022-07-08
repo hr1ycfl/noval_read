@@ -1,0 +1,57 @@
+name: novel_read
+version: 1.0.0+1
+publish_to: none
+description: 小说阅读
+environment:
+  sdk: '>=2.16.2 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: ^4.6.1
+  sqflite: ^2.0.2+1
+  # 图片文件缓存 ,只支持 ios Android
+  cached_network_image: ^3.2.0
+  # 配置文件读取
+  shared_preferences: 2.0.14
+  # 启动页设置
+  flutter_native_splash: ^2.1.6
+  # 列表滑动组件 如：ios微信删除聊天记录功能
+  flutter_slidable: ^1.2.1
+  # 为您的Flutter应用程序提供了一个简洁的SQLite抽象，其灵感来自于Room持久性库，它提供了内存中对象和数据库行之间的自动映射，同时仍然使用SQL提供对数据库的完全控制。因此，有必要了解SQL和SQLite，以便充分挖掘Floor的潜力。
+  # flutter packages pub run build_runner build
+  floor: ^1.2.0
+  # http 请求
+  dio: ^4.0.6
+  #gbk
+  fast_gbk: ^1.0.0
+  # 角标 如：章节未读数量提醒
+  badges: ^2.0.2
+  # 线程管理
+  worker_manager: ^4.2.6
+  # 解析库
+  reader_parser2:
+    git:
+      url: git@github.com:huage2580/reader_parser2.git
+      ref: master
+
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  floor_generator: ^1.2.0
+  build_runner: ^2.1.2
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/data/book-list.json
+    - assets/data/group-list.json
+  uses-material-design: true
+
+flutter_native_splash:
+  image: assets/images/splash-logo.png
+  color: "#1c4587"
